@@ -1,0 +1,382 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>The Dog Spot-Services</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- css files -->
+
+    <!-- font awesome cdn link  -->
+
+    <link rel="stylesheet" type="text/css" media="screen" href="css/menu.css" />
+    <link rel="stylesheet" type="text/css" href="payment/payment.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+    />
+  </head>
+  <body>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"
+    ></script>
+    <script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript" src="js/jquery-3.4.6.min.js"></script>
+    <!-- Header area starts -->
+    <header class="header">
+      <!--navigation bar-->
+      <section class="navigation">
+        <div class="nav-container" id="navbar">
+          <!-- logo and brand -->
+          <div class="brand">
+            <a href="index.html">
+              <a href="">THE DOG SPOT</a>
+            </a>
+          </div>
+
+          <!-- nav items -->
+          <div class="nav-items">
+            <nav>
+              <div class="nav-mobile">
+                <a id="nav-toggle" href="index.html"><span></span></a>
+              </div>
+
+              <ul class="nav-list">
+                <!-- Setting the links to #! will ensure that no action takes place on click. -->
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="#about">ABOUT</a></li>
+                <li>
+                  <a href="#">SERVICES</a>
+                  <ul class="nav-dropdown">
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="#training-page">Training</a></li>
+                    <li><a href="#vet-page">Consult a Vet</a></li>
+                    <li><a href="#dog-walking">Dog walking</a></li>
+                    <li><a href="#adopt-pet">Adopt a Pet</a></li>
+                  </ul>
+                </li>
+                <li><a href="contact.html">CONTACT</a></li>
+                <li><a href="products.html">PRODUCTS</a></li>
+                <li><a href="#adopt-pet">ADOPT PET</a></li>
+                <li>
+                  <a href="user/user_page.php"
+                    ><img class="user-img" src="images/user.png" alt=""
+                  /></a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </section>
+      <!-- navigation -->
+    </header>
+    <!-- navigation -->
+
+    <div class="container d-lg-flex">
+      <div class="box-1 bg-light user">
+        <div class="box-inner-1 pb-3 mb-3">
+          <div class="d-flex justify-content-between mb-3 userdetails">
+            <p class="fw-bold">Products Details</p>
+          </div>
+          <div
+            id="my"
+            class="carousel slide carousel-fade img-details"
+            data-bs-ride="carousel"
+            data-bs-interval="2000"
+          >
+            <div class="carousel-indicators">
+              <button
+                type="button"
+                data-bs-target="#my"
+                data-bs-slide-to="0"
+                class="active"
+                aria-current="true"
+                aria-label="Slide 1"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#my"
+                data-bs-slide-to="1"
+                aria-label="Slide 2"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#my"
+                data-bs-slide-to="2"
+                aria-label="Slide 3"
+              ></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img
+                  src="images/products/dog_treat2.png"
+                  class="d-block w-100"
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="images/products/cat_food.png"
+                  class="d-block w-100 h-100"
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="images/products/dog_treat5.png"
+                  class="d-block w-100"
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="images/products/dog_food (2).png"
+                  class="d-block w-100"
+                />
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#my"
+              data-bs-slide="prev"
+            >
+              <div class="icon">
+                <span class="fas fa-arrow-left"></span>
+              </div>
+              <span class="visually-hidden">Previous</span>
+            </button>
+
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#my"
+              data-bs-slide="next"
+            >
+              <div class="icon">
+                <span class="fas fa-arrow-right"></span>
+              </div>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+          <p class="dis info my-3">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate
+            quos ipsa sed officiis odio
+          </p>
+          <div class="radiobtn">
+            <input type="radio" name="box" id="one" />
+            <input type="radio" name="box" id="two" />
+            <input type="radio" name="box" id="three" />
+            <label for="one" class="box py-2 first">
+              <div class="d-flex align-items-start">
+                <span class="circle"></span>
+                <div class="course">
+                  <div
+                    class="d-flex align-items-center justify-content-between mb-2"
+                  >
+                    <span class="fw-bold"> Collection 01 </span>
+                    <span class="fas fa-dollar-sign">29</span>
+                  </div>
+                  <span>10 x Presets. Released in 2018</span>
+                </div>
+              </div>
+            </label>
+            <label for="two" class="box py-2 second">
+              <div class="d-flex">
+                <span class="circle"></span>
+                <div class="course">
+                  <div
+                    class="d-flex align-items-center justify-content-between mb-2"
+                  >
+                    <span class="fw-bold"> Collection 01 </span>
+                    <span class="fas fa-dollar-sign">29</span>
+                  </div>
+                  <span>10 x Presets. Released in 2018</span>
+                </div>
+              </div>
+            </label>
+            <label for="three" class="box py-2 third">
+              <div class="d-flex">
+                <span class="circle"></span>
+                <div class="course">
+                  <div
+                    class="d-flex align-items-center justify-content-between mb-2"
+                  >
+                    <span class="fw-bold"> Collection 01 </span>
+                    <span class="fas fa-dollar-sign">29</span>
+                  </div>
+                  <span>10 x Presets. Released in 2018</span>
+                </div>
+              </div>
+            </label>
+          </div>
+        </div>
+      </div>
+      <div class="box-2">
+        <div class="box-inner-2">
+          <div>
+            <p class="fw-bold">Payment Details</p>
+            <p class="dis mb-3">
+              Complete your purchase by providing your payment details
+            </p>
+          </div>
+          <form action="">
+            <div class="mb-3">
+              <p class="dis fw-bold mb-2">Email address</p>
+              <input
+                class="form-control"
+                type="email"
+                value="luke@skywalker.com"
+              />
+            </div>
+            <div>
+              <p class="dis fw-bold mb-2">Card details</p>
+              <div
+                class="d-flex align-items-center justify-content-between card-atm rounded"
+              >
+                <div class="fab fa-cc-visa ps-3"></div>
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Card Details"
+                />
+                <div class="d-flex w-50">
+                  <input
+                    type="text"
+                    class="form-control px-0"
+                    placeholder="MM/YY"
+                  />
+                  <input
+                    type="password"
+                    maxlength="3"
+                    class="form-control px-0"
+                    placeholder="CVV"
+                  />
+                </div>
+              </div>
+              <div class="my-3 cardname">
+                <p class="dis fw-bold mb-2">Cardholder name</p>
+                <input class="form-control" type="text" />
+              </div>
+              <div class="address">
+                <p class="dis fw-bold mb-3">Billing address</p>
+                <select class="form-select" aria-label="Default select example">
+                  <option selected hidden>United States</option>
+                  <option value="1">India</option>
+                  <option value="2">Australia</option>
+                  <option value="3">Canada</option>
+                </select>
+                <div class="d-flex">
+                  <input
+                    class="form-control zip"
+                    type="text"
+                    placeholder="ZIP"
+                  />
+                  <input
+                    class="form-control state"
+                    type="text"
+                    placeholder="State"
+                  />
+                </div>
+                <div class="my-3">
+                  <p class="dis fw-bold mb-2">VAT Number</p>
+                  <div class="inputWithcheck">
+                    <input
+                      class="form-control"
+                      type="text"
+                      value="GB012345B9"
+                    />
+                    <span class="fas fa-check"></span>
+                  </div>
+                </div>
+                <div class="d-flex flex-column dis">
+                  <div
+                    class="d-flex align-items-center justify-content-between mb-2"
+                  >
+                    <p>Subtotal</p>
+                    <p><span class="fas fa-dollar-sign"></span>33.00</p>
+                  </div>
+                  <div
+                    class="d-flex align-items-center justify-content-between mb-2"
+                  >
+                    <p>VAT<span>(20%)</span></p>
+                    <p><span class="fas fa-dollar-sign"></span>2.80</p>
+                  </div>
+                  <div
+                    class="d-flex align-items-center justify-content-between mb-2"
+                  >
+                    <p class="fw-bold">Total</p>
+                    <p class="fw-bold">
+                      <span class="fas fa-dollar-sign"></span>35.80
+                    </p>
+                  </div>
+                  <div class="btn btn-primary mt-2">
+                    Pay<span class="fas fa-dollar-sign px-1"></span>35.80
+                  </div>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer-distributed">
+      <div class="footer-left">
+        <h2 class="footer-header"><span>The</span>DogSpot</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus
+          eius expedita quo itaque at illum, temporibus, error incidunt iure,
+          rerum libero. Voluptas nostrum accusantium ex quia? Architecto minima
+          officiis dolore!
+        </p>
+      </div>
+
+      <div class="footer-centre">
+        <h2 class="footer-header">Get In Touch</h2>
+        <div>
+          <i class="fa fa-phone"></i>
+          <p>+1.555.555.5555</p>
+        </div>
+
+        <div>
+          <i class="fa fa-map-marker"></i>
+          <p><span>The Dog Spot</span>Near JSPM college, Hadapsar</p>
+        </div>
+
+        <div>
+          <i class="fa fa-envelope"></i>
+          <p>
+            <a href="mailto:support@thedogspot.com">support@thedogspot.com</a>
+          </p>
+        </div>
+
+        <div>
+          <i class="fa fa-envelope"></i>
+          <p><a href="mailto:help@thedogspot.com">help@thedogspot.com</a></p>
+        </div>
+      </div>
+
+      <div class="footer-right">
+        <div class="footer-nav">
+          <h2 class="footer-header">Popular links</h2>
+          <ul class="footer-nav-list">
+            <!-- Setting the links to #! will ensure that no action takes place on click. -->
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="adopt-pet.html">Adopt a Pet</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

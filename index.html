@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>The Dog Spot</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- css files -->
+    <!-- font awesome cdn link  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="screen"
+      href="css/style.css"
+    />
+    <!-- Js files -->
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"
+    ></script>
+  </head>
+  <body>
+    <script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript" src="js/jquery-3.4.6.min.js"></script>
+
+    <!-- Header area starts -->
+    <header class="header">
+      <!--navigation bar-->
+      <section class="navigation">
+        <div class="nav-container" id="navbar">
+          <!-- logo and brand -->
+          <div class="brand">
+            <a href="index.html">
+              <a href="">THE DOG SPOT</a>
+            </a>
+          </div>
+
+          <!-- nav items -->
+          <div class="nav-items">
+            <nav>
+              <div class="nav-mobile">
+                <a id="nav-toggle" href="index.html"><span></span></a>
+              </div>
+
+              <ul class="nav-list">
+                <!-- Setting the links to #! will ensure that no action takes place on click. -->
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="#about">ABOUT</a></li>
+                <li>
+                  <a href="#">SERVICES</a>
+                  <ul class="nav-dropdown">
+                    <li><a href="services.html">All Services</a></li>
+                    <li><a href="adopt-pet.html">Adopt a Pet</a></li>
+                  </ul>
+                </li>
+                <li><a href="contact.html">CONTACT</a></li>
+                <li><a href="products.html">PRODUCTS</a></li>
+                <li><a href="adopt-pet.html">ADOPT PET</a></li>
+                <li>
+                  <a href="user/user_page.php"
+                    ><img class="user-img" src="images/user.png" alt=""
+                  /></a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </section>
+      <!-- navigation -->
+    </header>
+
+    <section class="header-bg" id="home">
+      <div class="header-col1">
+        <h2>Hi Welcome</h2>
+        <h3
+          class="typewrite"
+          data-period="1000"
+          data-type='["to our website","to our website","to our website"]'
+        ></h3>
+      </div>
+      <!-- header-col1 -->
+      <div class="clear"></div>
+      <!--clear-->
+      <img src="images/bottom_wave.png" alt="bottom_wave" />
+    </section>
+    <!--header-bg-parent-->
+
+    <section class="about-full">
+      <h3 id="aboutfull-h3">The Easier System</h3>
+      <div class="quick-services">
+        <div class="quick-card">
+          <img src="images/search.png" alt="" height="125px" width="125px" />
+          <h3>Find a dog</h3>
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the.
+          </p>
+          <a href="services.html">LEARN MORE</a>
+        </div>
+
+        <div class="quick-card">
+          <img src="images/emoji.png" alt="" height="125px" width="125px" />
+          <h3>Meet your dog</h3>
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the.
+          </p>
+          <a href="services.html">LEARN MORE</a>
+        </div>
+
+        <div class="quick-card">
+          <img src="images/house.jpg" alt="" height="125px" width="125px" />
+          <h3>adopt your dog</h3>
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the.
+          </p>
+          <a href="services.html">LEARN MORE</a>
+        </div>
+      </div>
+      <!-- quick services -->
+
+      <!-- About us -->
+      <div class="about" id="about">
+        <div class="about-left">
+          <img src="images/about-img.png" alt="" />
+        </div>
+        <div class="about-right">
+          <h2 class="heading">About</h2>
+          <h4>
+            ​We help ambitious organisations create meaningful change by
+            defining purpose and elevating it into powerful design narratives.
+          </h4>
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever since the 1500s, when an unknown printer took a galley of type
+            and scrambled it to make a type specimen book. It has survived not
+            only five centuries, but also the leap into electronic typesetting,
+            remaining essentially unchanged. It was popularised in the 1960s
+            with the release of Letraset sheets containing Lorem Ipsum passages,
+            and more recently with desktop publishing software like Aldus
+            PageMaker including versions of Lorem Ipsum.
+          </p>
+          
+          <button class="common-btn" type="button" onclick="window.location.href='contact.html'">contact now</button>
+        </div>
+        <!-- about-left end -->
+      </div>
+    </section>
+    <!-- about and quick end -->
+
+    <section id="services">
+      <div class="purple-top-wave">
+        <img src="images/purple-top-wave.png" alt="" />
+      </div>
+      <div class="services-heading">
+        <div class="services-text">
+          <h4><span>HOW WE HELP</span></h4>
+          <h2>Our management services</h2>
+        </div>
+      </div>
+      <div class="services">
+        <div class="services-cards">
+          <div class="sc-card">
+            <img src="images/pet-training.png" alt="" />
+            <h3>Training</h3>
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the.
+            </p>
+          </div>
+
+          <div class="sc-card">
+            <img src="images/dog-walking.png" alt="" />
+            <h3>Dog walking</h3>
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the.
+            </p>
+          </div>
+
+          <div class="sc-card">
+            <img src="images/adopt-pet/vet-consult.png" alt="" />
+            <h3>Consult a vet</h3>
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the.
+            </p>
+          </div>
+
+          <div class="sc-card">
+            <img src="images/adopt-pet/adoption.png" alt="" />
+            <h3>Adopt a pet</h3>
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the.
+            </p>
+          </div>
+        </div>
+        <!-- service cards -->
+      </div>
+      <!-- services -->
+    </section>
+
+    <!-- conatct form -->
+    <div class="contact-form" id="contact-form">
+      <div class="container-cont">
+        <form id="contact" action="" method="post">
+          <h3>GET IN TOUCH</h3>
+          <fieldset>
+            <input placeholder="Your name" type="text" tabindex="1" required />
+          </fieldset>
+          <fieldset>
+            <input
+              placeholder="Your Email Address"
+              type="email"
+              tabindex="2"
+              required
+            />
+          </fieldset>
+          <fieldset>
+            <input
+              placeholder="Your Phone Number"
+              type="tel"
+              tabindex="3"
+              required
+            />
+          </fieldset>
+          <fieldset>
+            <input placeholder="Your City" type="text" tabindex="4" required />
+          </fieldset>
+          <fieldset>
+            <textarea
+              placeholder="Type your message here...."
+              tabindex="5"
+              required
+            ></textarea>
+          </fieldset>
+          <fieldset>
+            <button
+              name="submit"
+              type="submit"
+              id="contact-submit"
+              data-submit="...Sending"
+            >
+              Submit
+            </button>
+          </fieldset>
+        </form>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer-distributed">
+      <div class="footer-left">
+        <h2 class="footer-header"><span>The</span>DogSpot</h2>
+        <p>
+          TheDogSpot donates a portion of every service to Pet NGO’s & Rescue
+          shelters through this program. We also provide meals to shelter dogs
+          in India.
+        </p>
+      </div>
+
+      <div class="footer-centre">
+        <h2 class="footer-header">Get In Touch</h2>
+        <div>
+          <i class="fa fa-phone"></i>
+          <p>+1.555.555.5555</p>
+        </div>
+
+        <div>
+          <i class="fa fa-map-marker"></i>
+          <p><span>The Dog Spot</span>Near JSPM college, Hadapsar</p>
+        </div>
+
+        <div>
+          <i class="fa fa-envelope"></i>
+          <p>
+            <a href="mailto:support@thedogspot.com">support@thedogspot.com</a>
+          </p>
+        </div>
+
+        <div>
+          <i class="fa fa-envelope"></i>
+          <p><a href="mailto:help@thedogspot.com">help@thedogspot.com</a></p>
+        </div>
+      </div>
+
+      <div class="footer-right">
+        <div class="footer-nav">
+          <h2 class="footer-header">Popular links</h2>
+          <ul class="footer-nav-list">
+            <!-- Setting the links to #! will ensure that no action takes place on click. -->
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="adopt-pet.html">Adopt a Pet</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
